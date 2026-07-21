@@ -1,11 +1,14 @@
 {
   "id": "com.harborclient.plugins.one-dark",
   "name": "One Dark Theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "HarborClient",
   "description": "README.md",
   "summary": "A One Dark theme for HarborClient.",
-  "categories": ["themes", "dark"],
+  "categories": [
+    "themes",
+    "dark"
+  ],
   "screenshots": [
     "https://raw.githubusercontent.com/harborclient/plugin-one-dark/main/screenshot.png"
   ],
@@ -16,7 +19,9 @@
   "engines": {
     "harborclient": ">=2.5.0"
   },
-  "permissions": ["ui"],
+  "permissions": [
+    "ui"
+  ],
   "contributes": {
     "themes": [
       {
